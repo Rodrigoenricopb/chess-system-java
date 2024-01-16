@@ -4,7 +4,7 @@ import boardgame.Position;
 
 public class ChessPosition {
 
-	private char column;
+	private int column;
 	private int row;
 	
 	public ChessPosition(char column, int row) {
@@ -15,7 +15,7 @@ public class ChessPosition {
 		this.row = row;
 	}
 
-	public char getColumn() {
+	public int getColumn() {
 		return column;
 	}
 
